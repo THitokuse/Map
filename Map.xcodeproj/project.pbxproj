@@ -14,6 +14,7 @@
 		CEE955A321A2A00C00D7D0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE955A121A2A00C00D7D0C4 /* LaunchScreen.storyboard */; };
 		CEE955AE21A2A00C00D7D0C4 /* MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE955AD21A2A00C00D7D0C4 /* MapTests.swift */; };
 		CEE955B921A2A00C00D7D0C4 /* MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE955B821A2A00C00D7D0C4 /* MapUITests.swift */; };
+		CEE955C821A2A18A00D7D0C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE955C721A2A18A00D7D0C4 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEE955B421A2A00C00D7D0C4 /* MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE955B821A2A00C00D7D0C4 /* MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUITests.swift; sourceTree = "<group>"; };
 		CEE955BA21A2A00C00D7D0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE955C721A2A18A00D7D0C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE955C821A2A18A00D7D0C4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				CEE955AC21A2A00C00D7D0C4 /* MapTests */,
 				CEE955B721A2A00C00D7D0C4 /* MapUITests */,
 				CEE9559621A2A00C00D7D0C4 /* Products */,
+				CEE955C621A2A18A00D7D0C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				CEE955BA21A2A00C00D7D0C4 /* Info.plist */,
 			);
 			path = MapUITests;
+			sourceTree = "<group>";
+		};
+		CEE955C621A2A18A00D7D0C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE955C721A2A18A00D7D0C4 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
